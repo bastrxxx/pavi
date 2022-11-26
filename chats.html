@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Category</title>
+	<link rel="icon" href="images/favicon.png" type="image/png" sizes="32x32">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/a4571f88ec.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="sass/pavi-main.css" rel="stylesheet" type="text/css">
+	<link href="sass/slick.css" rel="stylesheet" type="text/css">
+	<link href="sass/slick-theme.css" rel="stylesheet" type="text/css">
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+
+	<div class="chat mb p-4">
+		
+		<!--Topbar Mobile-->
+		<div class="signin mw640">
+            <div class="py-2 py-lg-3">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center mx-auto">
+                        <div class="form chats w-100">
+                            <h4 class="text-center d-block">Chat <i class="fa fa-ellipsis-v" aria-hidden="true"></i></h4>
+							<ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Messenger</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Contacts</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                    <div class="card p-sm-3 p-2 mb-3 bg-transparent rounded-3">
+                                        <div class="row g-0">
+                                          <div class="col-3">
+                                            <img src="images/ava-chat.jpg" class="avachat img-fluid rounded-pill" alt="...">
+                                          </div>
+                                          <div class="col-9">
+                                            <div class="card-body">
+                                              <h5 class="card-title"><span class="namechat">Kenny Bill</span><span class="pidol">Pidol</span></h5>
+                                              <p class="card-text"><span class="textchat">Want play Pidol?</span><small class="text-muted">5 minutes ago</small></p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="card p-sm-3 p-2 mb-3 bg-transparent rounded-3">
+                                        <div class="row g-0">
+                                          <div class="col-3">
+                                            <img src="images/ava-chat.jpg" class="avachat img-fluid rounded-pill" alt="...">
+                                          </div>
+                                          <div class="col-9">
+                                            <div class="card-body">
+                                              <h5 class="card-title"><span class="namechat">Kenny Bill</span><span class="pidol">Pidol</span></h5>
+                                              <p class="card-text"><span class="textchat">Want play Pidol?</span><small class="text-muted">5 minutes ago</small></p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="d-grid addchat gap-2">
+                                        <a class="btn btn-primary bg-transparent border-0" type="button"><img src="images/addchat.png" alt="" class="w-50"/></a>
+                                        <button class="btn btn-primary" type="button">Add chat</button>
+                                      </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<!--End News-->
+
+		<!--Mobile Content-->
+		
+		<div class="mb">
+			<div class="fix-menubot fixed-bottom pt-3">
+				<ul>
+					<li>
+						<a href="#" class="btnbot"><i class="fa fa-home me-2" aria-hidden="true"></i>Home</a>
+					</li>
+					<li>
+						<a href="#" class="btnbot active"><i class="fa fa-comment-o" aria-hidden="true"></i>Chat</a>
+					</li>
+					<li>
+						<a href="#" class="btnbot"><i class="fa fa-th-large" aria-hidden="true"></i>CAT</a>
+					</li>
+					<li>
+						<a href="#" class="btnbot"><i class="fa-brands fa-app-store-ios"></i>App Store</a>
+					</li>
+					<li>
+						<a href="#" class="btnbot"><i class="fa-regular fa-file"></i>News</a>
+					</li>
+					<li>
+						<a href="#" class="btnbot"><i class="fa-solid fa-wallet"></i>Wallet</a>
+					</li>
+					<li>
+						<a href="#" class="btnbot"><i class="fa-solid fa-phone-flip"></i>Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+	<!----End maincontent-->
+</body>
+<script  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.js"></script>
+<script src="js/slick.js"></script>
+<script>
+	$(document).ready(function() {
+		$(".btn-search").click(function() {
+		$(".togglesearch").toggle();
+		$("input[type='text']").focus();
+		});
+		
+	});
+	
+</script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+	slidesPerView: 4,
+	spaceBetween: 10,
+	freeMode: true,
+	pagination: false,
+    breakpoints: {
+        320: {
+        slidesPerView: 1.5
+        },
+        1200: {
+        slidesPerView: 4
+        }
+    },
+  });
+  
+</script>
+	
+</html>

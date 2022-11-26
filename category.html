@@ -1,0 +1,453 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Category</title>
+	<link rel="icon" href="images/favicon.png" type="image/png" sizes="32x32">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/a4571f88ec.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="sass/pavi-main.css" rel="stylesheet" type="text/css">
+	<link href="sass/slick.css" rel="stylesheet" type="text/css">
+	<link href="sass/slick-theme.css" rel="stylesheet" type="text/css">
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+	<div class="navigation-fix d-none d-xl-block">
+		<div class="nav-main py-4">
+			<div class="topnav">
+				<a href="#" class="logo mb-5 d-block ps-3"><h1><img src="images/logo.png" alt="" class="mw-100 d-block"/></h1></a>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item border-0 py-3"><a href="#" class="active"><i class="fa fa-home me-2" aria-hidden="true"></i>Home</a></li>
+					<li class="list-group-item border-0  py-3"><a href="#" class=""><span class="material-icons-outlined md-18 me-2">
+						dashboard
+						</span>Categories</a></li>
+					<li class="list-group-item border-0 py-3"><a href="#" class=""><i class="fa fa-plus-square-o me-2" aria-hidden="true"></i>New on Pavilium</a></li>
+					<li class="list-group-item border-0 py-3"><a href="#" class=""><i class="fa-solid fa-wallet me-2"></i>Wallet</a></li>
+					<li class="list-group-item border-0 py-3"><a href="#" class=""><i class="fa-regular fa-file me-2"></i>News</a></li>
+					<li class="list-group-item border-0 py-3"><a href="#" class=""><i class="fa fa-phone me-2" aria-hidden="true"></i>Contact us</a></li>
+					<li class="list-group-item border-0 py-3"><a href="#" class=""><span class="material-icons-outlined md-18 me-2">show_chart</span>Market</a></li>
+					<li class="list-group-item border-0 py-3"><a href="#" class=""><i class="fa fa-balance-scale me-2" aria-hidden="true"></i>Marketplace</a></li>
+					<li class="list-group-item border-0 py-3"><a href="#" class=""><span class="material-icons-outlined md-18 me-2">savings</span>Staking</a></li>
+				</ul>
+			</div>
+			<div class="botnav px-4">
+				<div class="user-info">
+					<img src="images/ava.jpg" alt="" class="user-ava me-3"/>
+					<span class="user-name">Lisa</span>
+				</div>
+				<a href="#" class="setting"><i class="fa fa-cog" aria-hidden="true"></i></a>
+			</div>
+		</div>
+	</div>
+	<!----End navigation fix-->
+
+	<div class="maincontent p-4">
+		<div class="desktop">
+			<div class="topbar">
+				<div class="left-bar">
+					<a href="#" class="btn btn-signup btn-warning rounded-pill border-0 me-2">Sign up</a>
+					<span class="text-sign">If not register / <strong class="error">Login</strong></span>
+				</div>
+				<div class="right-bar">
+					<div class="friendonline">
+						<span class="me-2">Online</span>
+						<div class="ava">
+							<span class="coloronl"></span>
+							<img src="images/ava-on.jpg" class=" rounded-pill" alt=""/>
+						</div>
+						<div class="ava fit" onclick="">
+							<span class="coloronl"></span>
+							<img src="images/ava-on.jpg" class=" rounded-pill" alt=""/>
+						</div>
+						<div class="countfriend rounded-pill">
+							+25
+						</div>
+					</div>
+					<div class="search">
+						<a href="#" class="btn-search btn mx-4"><i class="fa fa-search" aria-hidden="true"></i></a>
+						<div class="togglesearch">
+							<input type="text" placeholder=""/>
+							<input type="button" value="Search"/>
+						</div>
+					</div>
+					<div class="favourite">
+						<a href="#" class="btn-heart btn me-4"><i class="fa fa-heart" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Topbar Mobile-->
+		<div class="mb">
+			<div class="topbar-mb">
+				<a href="#" class="logomb">
+					<img src="images/logo.png" alt=""/>
+				</a>
+				<div class="usermb">
+					<a href="#">
+						<span class="me-2">Lisa</span>
+						<span class="avamb"><img src="images/ava.jpg" alt=""/></span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--Topbar Mobile-->
+		<div class="mb">
+			<div class="searchmb mt-3">
+				<input class="input-elevated" type="text" placeholder="Search">
+				<ul class="btn3 mt-3">
+					<li>
+						<a href="#" class="btn btn-primary me-2"><span class="ico material-icons-outlined md-18 me-2">show_chart</span>Market</a>
+					</li>
+					<li>
+						<a href="#" class="btn btn-primary me-2"><i class="ico fa fa-balance-scale me-2" aria-hidden="true"></i>Marketplace</a>
+					</li>
+					<li><a href="#" class="btn btn-primary"><span class="ico material-icons-outlined md-18 me-2">savings</span>StakingMarket</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!---End topbar-->
+		<div class="showdemo mt-4">
+			<div class="px-0">
+				<div class="row">
+					<div class="col-xxl-3 col-xl-6 col-6">
+						<div class="show px-2 px-sm-3 py-2 m-1 m-sm-3">
+							<ul class="px-0">
+								<li><img class="me-2" src="images/icon-btc.png" alt=""/><h5>BTC</h5></li>
+								<li><span class="fs-5 mt-3">19,168.81 USD</span> </li>
+								<li class="fs-6">24H <span class="green ms-2">0.74%</span></li>
+								<li><img class="mw-100 d-block" src="images/graph1.png" alt=""/></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xxl-3 col-xl-6 col-6">
+						<div class="show px-2 px-sm-3 py-2 m-1 m-sm-3">
+							<ul class="px-0">
+								<li><img class="me-2" src="images/icon-eth.png" alt=""/><h5>ETH</h5></li>
+								<li><span class="fs-5 mt-3">1,302.00 USD</span> </li>
+								<li class="fs-6">24H <span class="green ms-2">0.74%</span></li>
+								<li><img class="mw-100 d-block" src="images/graph2.png" alt=""/></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xxl-3 col-xl-6 col-6">
+						<div class="show px-2 px-sm-3 py-2 m-1 m-sm-3">
+							<ul class="px-0">
+								<li><img class="me-2" src="images/icon-bnb.png" alt=""/><h5>BTC</h5></li>
+								<li><span class="fs-5 mt-3">269,90 USD</span> </li>
+								<li class="fs-6">24H <span class="green ms-2">0.74%</span></li>
+								<li><img class="mw-100 d-block" src="images/graph3.png" alt=""/></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xxl-3 col-xl-6 col-6">
+						<div class="show px-2 px-sm-3 py-2 m-1 m-sm-3">
+							<ul class="px-0">
+								<li><img class="me-2" src="images/icon-ada.png" alt=""/><h5>BTC</h5></li>
+								<li><span class="fs-5 mt-3">0.34800000 USD</span> </li>
+								<li class="fs-6">24H <span class="green ms-2">0.74%</span></li>
+								<li><img class="mw-100 d-block" src="images/graph4.png" alt=""/></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!---End showdemo-->
+
+		
+		<div class="news cate mt-4 mw640">
+			<div class="px-0">
+				<div class="row">
+					<div class="headnews">
+						<nav class="desktop" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+							<ol class="breadcrumb">
+							  <li class="breadcrumb-item"><a href="#" class="error">Home</a></li>
+							  <li class="breadcrumb-item active  error" aria-current="page">Library</li>
+							</ol>
+						</nav>
+						<h3 class="mb-3">Pidol xplor</h3>
+					</div>
+					<div class="col-xxl-8 col-lg-12">
+						<div class="featured">
+                            <div thumbsSlider="" class="swiper mySwiper4">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="images/cate/sli1.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/cate/sli2.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/cate/sli3.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/cate/sli1.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/cate/sli2.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/cate/sli3.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/cate/sli1.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/cate/sli2.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/cate/sli3.jpg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper mySwiper3 mt-3">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="images/cate/sli1.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/cate/sli2.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/cate/sli3.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/cate/sli1.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/cate/sli2.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/cate/sli3.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/cate/sli1.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/cate/sli2.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/cate/sli3.jpg" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb">
+                            <a href="#" class="d-block btn-trynow btn btn-primary mt-3 col-lg-3 col-sm-4 col-8 mx-auto fs-3 py-sm-4 py-3"><i class="fa fa-play me-2" aria-hidden="true"></i> Try now</a>
+                        </div>
+                        <!--End featured-->
+					</div>
+					<div class="col-xxl-4 col-lg-12 d-none d-xl-block">
+						<div class="row">
+							<div class="col-12">
+								<div class="newshot mt-3 mt-xxl-0">
+                                    <img src="images/cate/sli1.jpg" alt="" class="mw-100 d-block mx-auto cate-img mb-3  d-none d-xxl-block" />
+                                    <div class="rank px-3 py-2">
+										<i class="fa fa-smile-o p-2 fs-3" aria-hidden="true"></i>
+										<h5 class="ms-3">
+											<span class="title">Perfect</span>
+											<span class="point fs-6">360632</span>
+										</h5>
+									</div>
+									<p class="fs-7 mt-2">Axie is a new type of game, partially owned and operated by its players. Earn AXS tokens by playing and use them to decide the future of the game! Discord.</p>
+									<p class="mb-0">Original release date: <span class="error fw-normal"> March 2018</span></p>
+									<p>Developers: <span class="error fw-normal"> Sky Marvis</span></p>
+                                    <div class="tag">
+                                        <p>Popular user-defined tags for this product:</p>
+                                        <p class="mb-0"><a href="#" class="taggame me-2">Lorem Ipsum</a><a href="#" class="taggame me-2">Exie</a></p>
+                                    </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--End News-->
+
+		<div class="contentmain mt-3 d-none d-xl-block">
+            <div class="px-0">
+				<div class="row">
+					<div class="col-xxl-8 col-lg-12">
+                        <div class="postnews p-2 p-lg-4">
+                            <h3>Pidol xplor</h3>
+                            <p>At AxieCon we leaked a new feature called Contests: in-game events where players complete Missions, earn Milestone Rewards and climb the Contest Leaderboard. Contests allow us to host events that make Axie even more immersive and rewarding for everyone.</p>
+                            <p>
+                                Today we’re launching the first of many Contests: “The Premiere”. Players will compete to win 10 Ranked Arena Battles using each of the 9 Axie classes; unlocking a plethora of rewards along the way including Moon Shards, Moon Dusts, Ancient Moonstones & Choice Boxes!
+                                At AxieCon we leaked a new feature called Contests: in-game events where players complete Missions, earn Milestone Rewards and climb the Contest Leaderboard. Contests allow us to host events that make Axie even more immersive and rewarding for everyone.
+                            </p><p>
+                                Today we’re launching the first of many Contests: “The Premiere”. Players will compete to win 10 Ranked Arena Battles using each of the 9 Axie classes; unlocking a plethora of rewards along the way including Moon Shards, Moon Dusts, Ancient Moonstones & Choice Boxes!
+                                At AxieCon we leaked a new feature called Contests: in-game events where players complete Missions, earn Milestone Rewards and climb the Contest Leaderboard. Contests allow us to host events that make Axie even more immersive and rewarding for everyone.
+                            </p>
+                                Today we’re launching the first of many Contests: “The Premiere”. Players will compete to win 10 Ranked Arena Battles using each of the 9 Axie classes; unlocking a plethora of rewards along the way including Moon Shards, Moon Dusts, Ancient Moonstones & Choice Boxes!
+                                At AxieCon we leaked a new feature called Contests: in-game events where players complete Missions, earn Milestone Rewards and climb the Contest Leaderboard. Contests allow us to host events that make Axie even more immersive and rewarding for everyone.
+                            </p><p>
+                                Today we’re launching the first of many Contests: “The Premiere”. Players will compete to win 10 Ranked Arena Battles using each of the 9 Axie classes; unlocking a plethora of rewards along the way including Moon Shards, Moon Dusts, Ancient Moonstones & Choice Boxes!
+                                At AxieCon we leaked a new feature called Contests: in-game events where players complete Missions, earn Milestone Rewards and climb the Contest Leaderboard. Contests allow us to host events that make Axie even more immersive and rewarding for everyone.
+                            </p><p>
+                                Today we’re launching the first of many Contests: “The Premiere”. Players will compete to win 10 Ranked Arena Battles using each of the 9 Axie classes; unlocking a plethora of rewards along the way including Moon Shards, Moon Dusts, Ancient Moonstones & Choice Boxes!
+                            </p><p>
+                                At AxieCon we leaked a new feature called Contests: in-game events where players complete Missions, earn Milestone Rewards and climb the Contest Leaderboard. Contests allow us to host events that make Axie even more immersive and rewarding for everyone.
+                            </p><p>
+                                Today we’re launching the first of many Contests: “The Premiere”. Players will compete to win 10 Ranked Arena Battles using each of the 9 Axie classes; unlocking a plethora of rewards along the way including Moon Shards, Moon Dusts, Ancient Moonstones & Choice Boxes!
+                                
+                                </p>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-lg-12  d-none d-xxl-block">
+						<div class="row">
+							<div class="col-12">
+                                <div class="specialnews">
+                                    <div class="swiper mySwiper">
+                                        <div class="swiper-wrapper">
+											<div class="swiper-slide"><a href="#" class="btn-icon"><img src="images/cate/slidetin.jpg" alt="" class="icon-spec"></a></div>
+											<div class="swiper-slide"><a href="#" class="btn-icon"><img src="images/cate/slidetin.jpg" alt="" class="icon-spec"></a></div>
+											<div class="swiper-slide"><a href="#" class="btn-icon"><img src="images/cate/slidetin.jpg" alt="" class="icon-spec"></a></div>
+											<div class="swiper-slide"><a href="#" class="btn-icon"><img src="images/cate/slidetin.jpg" alt="" class="icon-spec"></a></div>
+											<div class="swiper-slide"><a href="#" class="btn-icon"><img src="images/cate/slidetin.jpg" alt="" class="icon-spec"></a></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<!--End contentmain-->
+
+		<!--Mobile Content-->
+		<div class="mb">
+			<div class="postmb">
+				<div class="newshot mt-3 mt-xxl-0 p-2 p-lg-4">
+					<p class="fs-7 mt-2">Pidol is a live-streaming platform with video on demand (VOD) clipping and posting functions where ALL OF THE SUPPORT AND DONATION from communities and fans go to their favorite content creators and idols without any fee!players ...</p>
+					<p class="mb-0 sen">Original release date: <span class="error fw-normal"> March 2018</span></p>
+					<p class="sen">Developers: <span class="error fw-normal"> Sky Marvis</span></p>
+					<p>Viewers can support their favorite broadcasters with in-app gifts, and some popular broadcasters use the app as a full-time employment. We at Pidol only profit from advertising and make sure that creators from our platform have all of the rights and benefits they deserve!</p><p>
+						Pidol primarily focuses on live streaming and includes official broadcasts of online events. In addition, Pidol also has live broadcasts for a variety of other genres, including education, esports and real live streams.</p>
+					<div class="tag">
+						<p class="mb-2">Popular user-defined tags for this product:</p>
+						<p class="mb-0"><a href="#" class="taggame me-2">Lorem Ipsum</a><a href="#" class="taggame me-2">Exie</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mb">
+			<div class="specialoffer">
+				<h3 class="title-spec mt-3">Special Offer</h3>
+				<div class="specialnews mt-3">
+					<div class="swiper mySwiper5">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><a href="#" class="btn-icon"><img src="images/cate/spec1.jpg" alt="" class="icon-spec"></a></div>
+							<div class="swiper-slide"><a href="#" class="btn-icon"><img src="images/cate/spec1.jpg" alt="" class="icon-spec"></a></div>
+							<div class="swiper-slide"><a href="#" class="btn-icon"><img src="images/cate/spec1.jpg" alt="" class="icon-spec"></a></div>
+							<div class="swiper-slide"><a href="#" class="btn-icon"><img src="images/cate/spec1.jpg" alt="" class="icon-spec"></a></div>
+							<div class="swiper-slide"><a href="#" class="btn-icon"><img src="images/cate/spec1.jpg" alt="" class="icon-spec"></a></div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mb">
+			<div class="fix-menubot fixed-bottom pt-3">
+				<ul>
+					<li>
+						<a href="#" class="btnbot"><i class="fa fa-home me-2" aria-hidden="true"></i>Home</a>
+					</li>
+					<li>
+						<a href="#" class="btnbot"><i class="fa fa-comment-o" aria-hidden="true"></i>Chat</a>
+					</li>
+					<li>
+						<a href="#" class="btnbot"><i class="fa fa-th-large" aria-hidden="true"></i>CAT</a>
+					</li>
+					<li>
+						<a href="#" class="btnbot appstore"><i class="fa-brands fa-app-store-ios"></i>App Store</a>
+					</li>
+					<li>
+						<a href="#" class="btnbot"><i class="fa-regular fa-file"></i>News</a>
+					</li>
+					<li>
+						<a href="#" class="btnbot"><i class="fa-solid fa-wallet"></i>Wallet</a>
+					</li>
+					<li>
+						<a href="#" class="btnbot"><i class="fa-solid fa-phone-flip"></i>Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!----End maincontent-->
+</body>
+<script  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.js"></script>
+<script src="js/slick.js"></script>
+<script>
+	$(document).ready(function() {
+		$(".btn-search").click(function() {
+		$(".togglesearch").toggle();
+		$("input[type='text']").focus();
+		});
+		
+	});
+	
+</script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+	slidesPerView: 1,
+	spaceBetween: 0,
+	freeMode: true,
+	pagination: {
+	  el: ".swiper-pagination",
+	  clickable: true,
+	},
+  });
+  var swiper = new Swiper(".mySwiper5", {
+	slidesPerView: 1.5,
+	spaceBetween: 20,
+	freeMode: true,
+	pagination: {
+	  el: ".swiper-pagination",
+	  clickable: true,
+	},
+  });
+</script>
+<script>
+	var swiper3 = new Swiper(".mySwiper3", {
+	  loop: true,
+	  spaceBetween:10,
+	  slidesPerView: 4.5,
+	  freeMode: true,
+	  watchSlidesProgress: true,
+	});
+	var swiper4 = new Swiper(".mySwiper4", {
+	  loop: true,
+	  spaceBetween: 0,
+	  navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+	  },
+	  thumbs: {
+		swiper: swiper3,
+	  },
+	});
+  </script>
+	
+</html>
